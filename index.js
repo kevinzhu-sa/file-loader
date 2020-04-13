@@ -74,7 +74,7 @@ module.exports = function(content) {
 		this.emitFile(outputPath, content);
 	}
 
-	return "module.exports = " + publicPath + ";";
+	return "module.exports = function(baseUrl) { baseUrl = baseUrl || \"\"; return baseUrl + " + publicPath + "; };";
 };
 
 module.exports.raw = true;
