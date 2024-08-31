@@ -70,7 +70,7 @@
     "prettier": "^1.19.1",
     "standard-version": "^8.0.1",
     "url-loader": "^3.0.0",
-    "webpack": "^4.42.0"
+    "webpack": "^5.94.0"
   },
   "keywords": [
     "webpack"
